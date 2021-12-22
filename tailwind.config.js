@@ -6,6 +6,7 @@ module.exports = {
                 'main': 'hsl(229, 57%, 11%)',
                 'box-bg': 'hsl(228, 56%, 26%)',
                 'small-box-bg': 'hsl(229, 7%, 55%)',
+                'font-color': 'hsl(243, 100%, 93%)',
                 'color-from': 'hsl(6, 100%, 80%)',
                 'color-to': 'hsl(335, 100%, 65%)'
             },

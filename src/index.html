@@ -49,11 +49,11 @@
                 </div>
             </div>
         </div>
-        <div class="w-2/5 h-auto flex flex-col justify-end" id="inside-container">
-            <div class="border-2 border-white bg-box-bg flex flex-col" id="storage-capacity">
+        <div class="w-2/5 h-auto flex flex-col justify-end border-2 border-white relative" id="inside-container">
+            <div class=" bg-box-bg flex flex-col" id="storage-capacity">
                 <div class="m-11  flex flex-col" id=margin-box>
                     <div class="" id="storage-description">
-                        <h1 class="text-mysize mb-3">You’ve used 815 GB of your storage</h1>
+                        <h1 class="text-mysize mb-3 text-font-color font-thin">You’ve used <span class="font-extrabold">815 GB</span> of your storage</h1>
                     </div>
                     <div class="w-full bg-main rounded-full h-4" id="storage-bar">
                         <div class="h-full bg-gradient-to-r from-color-from to-color-to text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 80%"></div>
@@ -64,6 +64,7 @@
                     </div>
                 </div>
             </div>
+            <div class="border-2 border-white w-48 h-20 bg-white absolute top-0 right-10" id="gbleft-box"></div>
         </div>
     </div>
 
