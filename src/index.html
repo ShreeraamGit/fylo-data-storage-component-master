@@ -20,12 +20,52 @@
         .attribution a {
             color: hsl(228, 45%, 44%);
         }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
 </head>
 
-<body class="bg-red-200">
-
-    You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB
+<body class="bg-main bg-desktop-pattern text-white bg-no-repeat bg-fixed bg-bottom  w-full h-screen flex flex-col justify-center font-myfont text-mysize">
+    <div class=" flex justify-center w-full h-auto" id="container">
+        <div class="flex flex-col w-96 bg-box-bg rounded-l-2xl rounded-br-2xl rounded-tr-large mr-10" id="logo-box">
+            <div class="mt-10 mb-10 ml-10" id="logo">
+                <img class="w-40" src="/images/logo.svg" alt="logo">
+            </div>
+            <div class="flex flex-row justify-between mb-10 ml-10  w-3/5" id="folder-box">
+                <div class=" bg-main rounded-xl" id="document-contaiiner">
+                    <div class="m-3" id="document">
+                        <img class="" src="/images/icon-document.svg" alt="logo">
+                    </div>
+                </div>
+                <div class=" bg-main rounded-xl" id="folder-container">
+                    <div class="m-3" id="folder">
+                        <img src="/images/icon-folder.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="bg-main rounded-xl" id="upload-container">
+                    <div class="m-3" id="upload">
+                        <img src="/images/icon-upload.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-2/5 h-auto flex flex-col justify-end" id="inside-container">
+            <div class="border-2 border-white bg-box-bg flex flex-col" id="storage-capacity">
+                <div class="m-11  flex flex-col" id=margin-box>
+                    <div class="" id="storage-description">
+                        <h1 class="text-mysize mb-3">You’ve used 815 GB of your storage</h1>
+                    </div>
+                    <div class="w-full bg-main rounded-full h-4" id="storage-bar">
+                        <div class="h-full bg-gradient-to-r from-color-from to-color-to text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 80%"></div>
+                    </div>
+                    <div class="flex mt-2" id="bar-points">
+                        <p class="">0 GB</p>
+                        <p class="ml-auto">1000 GB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
