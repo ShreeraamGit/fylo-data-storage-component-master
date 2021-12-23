@@ -25,7 +25,7 @@ module.exports = {
                 'large': '120px',
             },
             fontFamily: {
-                'myfont': ['"Raleway", sans-serif']
+                'myfont': ['Poppins']
             },
             fontSize: {
                 'mysize': '14px',
